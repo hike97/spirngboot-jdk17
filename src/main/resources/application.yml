@@ -1,0 +1,14 @@
+spring:
+  data:
+    redis:
+      port: 6379
+#      password:
+      host: 192.168.223.130
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    show-sql: true
+
+
